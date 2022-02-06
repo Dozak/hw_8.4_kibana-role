@@ -3,5 +3,8 @@ molecule_docker
 docker
 ansible-lint
 yamllint
+ansible
+tox
 urllib3
 selinux
+six
