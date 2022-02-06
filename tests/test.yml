@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - hw_8.4_kibana-role
+    - kibana-role
