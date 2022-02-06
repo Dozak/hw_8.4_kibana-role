@@ -11,6 +11,13 @@ platforms:
     privileged: True
     memory: 2GB
     memory-swap: -1
+  - name: ubuntu
+    image: docker.io/pycontribs/ubuntu:latest
+    pre_build_image: true
+    command: /sbin/init
+    privileged: True
+    memory: 2GB
+    memory-swap: -1
   - name: centos8
     image: docker.io/pycontribs/centos:8
     pre_build_image: true

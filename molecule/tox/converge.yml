@@ -4,9 +4,9 @@
   tasks:
     - name: "Include ansible-elasticsearch-role"
       include_role:
-        name: "ansible-elastic-role"
+        name: "elastic-role"
     - name: Flush handlers
       meta: flush_handlers
-    - name: "Include ansible-kibana-role"
+    - name: "Include kibana-role"
       include_role:
-        name: "ansible-kibana-role"
+        name: "kibana-role"

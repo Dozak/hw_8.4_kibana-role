@@ -2,9 +2,9 @@
 - name: Converge
   hosts: all
   tasks:
-    - name: "Include ansible-elasticsearch-role"
+    - name: "Include elasticsearch-role"
       include_role:
-        name: "elasticsearch-role"
+        name: "elastic-role"
     - name: Flush handlers
       meta: flush_handlers
     - name: "Include kibana-role"
